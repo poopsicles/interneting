@@ -2,9 +2,8 @@
 .people-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
-    padding: 0% 20%;
-    margin-bottom: 20px;
+    gap: 35px 15px;
+    padding: 20px 18%;
 }
 
 /* Individual person styles */
@@ -13,28 +12,31 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin: 10px;
+}
+
+.person a {
+    color: #e1e1e2;
+
 }
 
 .person img {
-    width: 128px;
-    height: 128px;
+    width: 170px;
+    height: 170px;
     border-radius: 50%;
     object-fit: cover;
 }
 
 /* Main document */
 html {
+    font-family: 'Inter var', sans-serif;
     scroll-behavior: smooth;
 }
 
 body,
 p {
     margin: 0px;
-}
-
-h3 {
-    margin: 10px;
+    background-color: #121212;
+    color: #e1e1e2;
 }
 
 .center-heading {
@@ -42,6 +44,15 @@ h3 {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    margin: 10px auto 0px;
+}
+
+.light {
+    font-style: italic;
+}
+
+.thin {
+    font-weight: 200;
 }
 
 /* Navbar styles */
@@ -49,10 +60,11 @@ nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    background-color: #333;
+    background-color: #1f1f1f;
     color: #fff;
     padding: 16px;
-    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: large;
 }
 
 nav a {
@@ -66,12 +78,13 @@ form {
     flex-direction: column;
     align-items: center;
     padding: 16px;
-    background-color: #f2f2f2;
+    background-color: #1f1f1f;
     border-radius: 8px;
 }
 
 form input,
 form button {
+    width: 210px;
     margin-top: 8px;
     padding: 8px;
     border-radius: 4px;
@@ -82,4 +95,30 @@ form button {
     background-color: #333;
     color: white;
     cursor: pointer;
+    width: 150px;
+    margin-top: 20px;
+}
+
+label {
+    display: inline-block;
+    width: 140px;
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'Inter var';
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+    font-named-instance: 'Regular';
+    src: url("fonts/Inter-roman.var.woff2?v=3.19") format("woff2");
+}
+
+@font-face {
+    font-family: 'Inter var';
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: italic;
+    font-named-instance: 'Italic';
+    src: url("fonts/Inter-italic.var.woff2?v=3.19") format("woff2");
 }
