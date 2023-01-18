@@ -9,9 +9,9 @@ function addPerson() {
     // Read the image's base64 data
     const file_reader = new FileReader();
     file_reader.onload = function () {
-        newPersonImage.src = file_reader.result;
+        newPersonImage.src = file_reader.result; // await the file data
     }
-    file_reader.readAsDataURL(document.getElementById('image').files[0]);
+    file_reader.readAsDataURL(document.getElementById('image').files[0]); // asynchronously get the data
 
     // Create the new person element
     const newPerson = document.createElement('div');
