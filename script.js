@@ -15,6 +15,11 @@ function addPerson() {
     const newPerson = document.createElement('div');
     newPerson.classList.add('person');
 
+    // Create the image element
+    const newPersonImage = document.createElement('img');
+    newPersonImage.alt = name;
+    newPerson.appendChild(newPersonImage);
+
     // Create the name element
     const newPersonName = document.createElement('h3');
     newPersonName.innerHTML = `Name: ${name}`;
@@ -24,12 +29,7 @@ function addPerson() {
     const newPersonAge = document.createElement('p');
     newPersonAge.innerHTML = `Age: ${age}`;
     newPerson.appendChild(newPersonAge);
-
-    // Create the image element
-    const newPersonImage = document.createElement('img');
-    newPersonImage.alt = name;
-    newPerson.appendChild(newPersonImage);
-
+    
     // Add the new person to the people grid
     peopleGrid.appendChild(newPerson);
 }
