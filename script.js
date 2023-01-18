@@ -3,8 +3,10 @@ function addPerson() {
     const peopleGrid = document.querySelector('.people-grid');
 
     // Get the form input values
-    const name = document.querySelector('#name').value;
-    const age = document.querySelector('#age').value;
+    const name = document.getElementById('name').value;
+    const age = document.getElementById('age').value;
+
+    // Read the image's base64 data
     const file_reader = new FileReader();
     file_reader.onload = function () {
         newPersonImage.src = file_reader.result;
