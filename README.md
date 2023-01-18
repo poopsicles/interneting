@@ -5,6 +5,7 @@
 - [ ] add calculator
 - [ ] remove placeholder names and pictures
 - [ ] add matric. num., fave food etc.
+- [X] allow adding of new persons
 
 ## styling
 

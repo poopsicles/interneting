@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html>
 
 <head>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script> 
+    <script src="script.js"></script>
 </head>
 
 <body>
@@ -47,19 +48,19 @@
             <p>Age: 55</p>
         </div>
     </div>
-<div class="bottom-heading">
+    <div class="bottom-heading">
 
-    <h2>Add a member:</h2>
-</div>
+        <h2>Add a member:</h2>
+    </div>
     <form onsubmit="addPerson(); return false;">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name">
         <label for="age">Age:</label>
         <input type="text" id="age" name="age">
         <label for="image">Image:</label>
-        <input type="image" id="image" name="image">
+        <input type="file" id="image" name="image" accept=".jpg, .jpeg, .png" onchange="readImage(event)">
         <button type="submit">Add Person</button>
-      </form>
+    </form>
 </body>
 
 </html>
