@@ -1,11 +1,65 @@
- <!DOCTYPE html>
 <html>
+
 <head>
-<title>Title of the document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script> 
 </head>
 
 <body>
-The content of the document......
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Calculator</a>
+    </nav>
+    <div class="people-grid">
+        <div class="person">
+            <img src="images/1.jpg" alt="Person 1">
+            <h3>Name: John Doe</h3>
+            <p>Age: 30</p>
+        </div>
+        <div class="person">
+            <img src="images/2.jpg" alt="Person 2">
+            <h3>Name: Jane Smith</h3>
+            <p>Age: 25</p>
+        </div>
+        <div class="person">
+            <img src="images/3.jpg" alt="Person 3">
+            <h3>Name: Bob Johnson</h3>
+            <p>Age: 35</p>
+        </div>
+        <div class="person">
+            <img src="images/4.jpg" alt="Person 4">
+            <h3>Name: Alice Brown</h3>
+            <p>Age: 40</p>
+        </div>
+        <div class="person">
+            <img src="images/5.jpg" alt="Person 5">
+            <h3>Name: Michael Davis</h3>
+            <p>Age: 45</p>
+        </div>
+        <div class="person">
+            <img src="images/6.jpg" alt="Person 6">
+            <h3>Name: Emily Garcia</h3>
+            <p>Age: 50</p>
+        </div>
+        <div class="person">
+            <img src="images/7.jpg" alt="Person 7">
+            <h3>Name: David Martinez</h3>
+            <p>Age: 55</p>
+        </div>
+    </div>
+<div class="bottom-heading">
+
+    <h2>Add a member:</h2>
+</div>
+    <form onsubmit="addPerson(); return false;">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <label for="age">Age:</label>
+        <input type="text" id="age" name="age">
+        <label for="image">Image:</label>
+        <input type="image" id="image" name="image">
+        <button type="submit">Add Person</button>
+      </form>
 </body>
 
-</html> 
+</html>
