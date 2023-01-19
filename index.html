@@ -4,6 +4,8 @@
 <head>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
+    <script src="calc.js"></script>
+
     <title>CSC310 Project - Group 12</title>
 </head>
 
@@ -11,7 +13,7 @@
     <nav>
         <a href="#group">Our Group</a>
         <a href="#form">Form</a>
-        <a href="#">Calculator</a>
+        <a href="#calc">Calculator</a>
     </nav>
 
     <div class="center-heading">
@@ -42,7 +44,7 @@
             <p>35 years old</p>
             <p class="light"><br>...can't survive without noodles</p>
         </div>
-        
+
         <div class="person">
             <img src="images/4.jpg" alt="Bedford Victory Abilor">
             <h3>Bedford Victory Abilor</h3>
@@ -110,6 +112,39 @@
             <button type="submit">Add Person</button>
         </div>
     </form>
+
+    <div class="center-heading">
+        <h2 id="calc">Calculator</h2>
+    </div>
+
+    <div class="center-section">
+        <div id="calculator">
+            <input type="text" id="display" class="calcdisplay">
+            <br>
+            <button id="btn1" class="calcbutton">1</button>
+            <button id="btn2" class="calcbutton">2</button>
+            <button id="btn3" class="calcbutton">3</button>
+            <button id="btnPlus" class="calcbutton">+</button>
+            <br>
+            <button id="btn4" class="calcbutton">4</button>
+            <button id="btn5" class="calcbutton">5</button>
+            <button id="btn6" class="calcbutton">6</button>
+            <button id="btnMinus" class="calcbutton">-</button>
+            <br>
+            <button id="btn7" class="calcbutton">7</button>
+            <button id="btn8" class="calcbutton">8</button>
+            <button id="btn9" class="calcbutton">9</button>
+            <button id="btnMultiply" class="calcbutton">*</button>
+            <br>
+            <button id="btnRandom" class="calcbutton">Random</button>
+            <button id="btn0" class="calcbutton">0</button>
+            <button id="btnClear" class="calcbutton">Clear</button>
+            <button id="btnDivide" class="calcbutton">/</button>
+            <br>
+            <button id="btnSqrt" class="calcbutton">Sqrt</button>
+            <button id="btnEqual" class="calcbutton">=</button>
+        </div>
+    </div>
 </body>
 
 </html>

@@ -2,7 +2,7 @@
 
 ## functionality
 
-- [ ] add calculator
+- [ ] make calculator functional
 - [ ] remove placeholder names and pictures
 - [X] add matric. num., fave food etc.
 - [X] allow adding of new persons
