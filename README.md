@@ -11,4 +11,6 @@
 
 - [X] change page background to dark
 - [X] change font to [Inter](https://rsms.me/inter/)
+- [X] make navbar sticky
+- [ ] chaneg image on hover
 - [ ] make it look nice
