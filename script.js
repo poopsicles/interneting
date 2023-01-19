@@ -42,7 +42,6 @@ function addPerson() {
 
     // Create the age element
     const newPersonAge = document.createElement('p');
-    newPersonAge.classList.add('thin');
     newPersonAge.innerHTML = `${age} years old`;
     newPerson.appendChild(newPersonAge);
 
