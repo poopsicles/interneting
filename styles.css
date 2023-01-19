@@ -58,7 +58,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 10px;
+    margin-bottom: 20px;
 }
 
 .light {
@@ -105,15 +105,16 @@ form button {
     margin-top: 8px;
     padding: 8px;
     border-radius: 4px;
-    border: 1px solid #ccc;
+    border: 1px solid #e1e1e2;
 }
 
 form button {
-    background-color: #333;
-    color: white;
+    background-color: #1f1f1f;
+    color: #e1e1e2;
     cursor: pointer;
     width: 150px;
     margin-top: 20px;
+    transition: background-color 0.2s ease-in-out;
 }
 
 label {
@@ -141,58 +142,54 @@ label {
 }
 
 #calculator {
-    width: 500px;
-    height: 500px;
+    width: 340px;
+    height: 470px;
     background-color: #1f1f1f;
     color: #fff;
     font-size: 20px;
-    padding: 20px;
+    padding: 15px;
     border-radius: 20px;
     text-align: right;
-    align-content: center;
 }
 
 .calcdisplay {
-    width: 90%;
-    background-color: #333;
+    width: 93%;
+    background-color: #1f1f1f;
     color: #fff;
     border: none;
+    border-bottom-style: solid;
     padding: 10px;
     font-size: 30px;
     margin-bottom: 10px;
     text-align: right;
-    border-radius: 20px;
-
 }
 
-.calcbutton {
-    width: 80px;
-    height: 80px;
+.calcbutton,
+.opbutton,
+.zerobutton {
+    width: 75px;
+    height: 75px;
     background-color: #1f1f1f;
-    color: #fff;
+    color: #e1e1e2;
     border: none;
     font-size: 18px;
-    margin: 5px;
+    margin: 3px;
     border-radius: 10px;
     transition: background-color 0.2s ease-in-out;
-    animation: buttonPress 0.2s ease-in-out;
 }
 
-
-@keyframes buttonPress {
-    0% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(0.95);
-    }
-    100% {
-        transform: scale(1);
-    }
+.opbutton {
+    background-color: #282828;
+    width: 72px;
+    height: 72px;
 }
 
+.zerobutton {
+    width: 250px;
+}
 
 button:hover {
-    background-color: #333;
+    background-color: #383838;
+    color: white;
     cursor: pointer;
 }

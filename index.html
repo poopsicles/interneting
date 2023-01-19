@@ -4,8 +4,6 @@
 <head>
     <link rel="stylesheet" href="styles.css">
     <script src="script.js"></script>
-    <script src="calc.js"></script>
-
     <title>CSC310 Project - Group 12</title>
 </head>
 
@@ -119,32 +117,35 @@
 
     <div class="center-section">
         <div id="calculator">
-            <input type="text" id="display" class="calcdisplay">
+            <input type="text" id="display" class="calcdisplay" disabled>
             <br>
-            <button id="btn1" class="calcbutton">1</button>
-            <button id="btn2" class="calcbutton">2</button>
-            <button id="btn3" class="calcbutton">3</button>
-            <button id="btnPlus" class="calcbutton">+</button>
-            <br>
-            <button id="btn4" class="calcbutton">4</button>
-            <button id="btn5" class="calcbutton">5</button>
-            <button id="btn6" class="calcbutton">6</button>
-            <button id="btnMinus" class="calcbutton">-</button>
-            <br>
-            <button id="btn7" class="calcbutton">7</button>
-            <button id="btn8" class="calcbutton">8</button>
-            <button id="btn9" class="calcbutton">9</button>
-            <button id="btnMultiply" class="calcbutton">*</button>
-            <br>
-            <button id="btnRandom" class="calcbutton">Random</button>
-            <button id="btn0" class="calcbutton">0</button>
-            <button id="btnClear" class="calcbutton">Clear</button>
-            <button id="btnDivide" class="calcbutton">/</button>
-            <br>
+            <button id="btnRandom" class="calcbutton">Rand</button>
             <button id="btnSqrt" class="calcbutton">Sqrt</button>
-            <button id="btnEqual" class="calcbutton">=</button>
+            <button id="btnClear" class="calcbutton">Clear</button>
+            <button id="btnPlus" class="opbutton">+</button>
+            <br>
+            <button id="btn7" class="calcbutton" onclick="displaynum(7)">7</button>
+            <button id="btn8" class="calcbutton" onclick="displaynum(8)">8</button>
+            <button id="btn9" class="calcbutton" onclick="displaynum(9)">9</button>
+            <button id="btnMinus" class="opbutton">-</button>
+            <br>
+            <button id="btn4" class="calcbutton" onclick="displaynum(4)">4</button>
+            <button id="btn5" class="calcbutton" onclick="displaynum(5)">5</button>
+            <button id="btn6" class="calcbutton" onclick="displaynum(6)">6</button>
+            <button id="btnMultiply" class="opbutton">*</button>
+            <br>
+            <button id="btn1" class="calcbutton" onclick="displaynum(1)">1</button>
+            <button id="btn2" class="calcbutton" onclick="displaynum(2)">2</button>
+            <button id="btn3" class="calcbutton" onclick="displaynum(3)">3</button>
+            <button id="btnDivide" class="opbutton">/</button>
+            <br>
+            <button id="btn0" class="zerobutton">0</button>
+            <button id="btnEqual" class="opbutton">=</button>
+            <br>
         </div>
     </div>
+
+    <script src="calc.js"></script>
 </body>
 
 </html>
