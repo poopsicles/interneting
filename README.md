@@ -14,3 +14,5 @@
 - [X] make navbar sticky
 - [ ] change image to food on hover
 - [ ] make it look nice
+- [ ] add a favicon
+
