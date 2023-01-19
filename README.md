@@ -2,7 +2,7 @@
 
 ## functionality
 
-- [ ] make calculator functional
+- [X] make calculator functional
 - [ ] remove placeholder names and pictures
 - [X] add matric. num., fave food etc.
 - [X] allow adding of new persons
@@ -13,6 +13,6 @@
 - [X] change font to [Inter](https://rsms.me/inter/)
 - [X] make navbar sticky
 - [ ] change image to food on hover
-- [ ] make it look nice
-- [ ] add a favicon
+- [X] make it look ~~nice~~ okay
+- [X] add a favicon
 
