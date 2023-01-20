@@ -6,7 +6,7 @@
 - [ ] remove placeholder names and pictures
 - [X] add matric. num., fave food etc.
 - [X] allow adding of new persons
-- [X] Added comments
+- [X] Added detailed comments
 
 ## styling
 
