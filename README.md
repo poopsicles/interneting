@@ -6,6 +6,7 @@
 - [ ] remove placeholder names and pictures
 - [X] add matric. num., fave food etc.
 - [X] allow adding of new persons
+- [X] Added comments
 
 ## styling
 
@@ -15,4 +16,5 @@
 - [ ] change image to food on hover
 - [X] make it look ~~nice~~ okay
 - [X] add a favicon
+
 
