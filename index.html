@@ -2,30 +2,32 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
-    <title>CSC310 Project - Group 12</title>
+    <link rel="stylesheet" href="styles.css"> <!-- link to the stylesheet file -->
+    <script src="script.js"></script> <!-- link to the javascript file -->
+    <title>CSC310 Project - Group 12</title> <!-- title for the webpage -->
 </head>
 
 <body>
     <nav>
-        <a href="#group">Our Group</a>
-        <a href="#form">Form</a>
-        <a href="#calc">Calculator</a>
+        <a href="#group">Our Group</a> <!-- link to the group section of the webpage -->
+        <a href="#form">Form</a> <!-- link to the form section of the webpage -->
+        <a href="#calc">Calculator</a> <!-- link to the calculator section of the webpage -->
     </nav>
 
     <div class="center-heading">
-        <h2 id="group">Group 12 Internet Programming Project</h2>
+        <h2 id="group">Group 12 Internet Programming Project</h2> <!-- heading for the group section -->
     </div>
 
     <div class="people-grid">
         <div class="person">
-            <img src="images/favour.png" alt="Eke Favour Uchechi">
-            <h3>Eke Favour Uchechi</h3>
-            <p>20CG028071</p>
-            <p>18 years old</p>
-            <p class="light"><br>...loves rice & beans</p>
+            <img src="images/favour.png" alt="Eke Favour Uchechi"><!-- image of the person -->
+            <h3>Eke Favour Uchechi</h3><!-- name of the person -->
+            <p>20CG028071</p><!-- matriculation number of the person -->
+            <p>18 years old</p><!-- age of the person -->
+            <p class="light"><br>...loves rice & beans</p><!-- personal information about the person -->
         </div>
+
+          <!-- similar structure for the other people in the group -->
 
         <div class="person">
             <img src="images/karen.png" alt="Ambrose Karen Chigozirim">
@@ -77,19 +79,22 @@
     </div>
 
     <div class="center-heading">
-        <h2 id="form">Add a member:</h2>
+        <h2 id="form">Add a member:</h2> <!-- heading for the form section -->
     </div>
 
-    <form onsubmit="addPerson(); return false;">
+    <form onsubmit="addPerson(); return false;"><!-- form for adding a new member to the group -->
         <div>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" placeholder="John Doe">
-        </div>
+        </div>  <!-- input field for the new member's name -->
 
         <div>
             <label for="matric">Matric. num.:</label>
             <input type="text" id="matric" name="matric" placeholder="20XX010301">
+        <!-- input field for the new member's matriculation number -->
         </div>
+
+     <!-- similar input fields for the new member's age, personal information, etc. -->
 
         <div>
             <label for="age">Age:</label>
@@ -107,7 +112,7 @@
         </div>
 
         <div>
-            <button type="submit">Add Person</button>
+            <button type="submit">Add Person</button><!-- submit button for the form -->
         </div>
     </form>
 
